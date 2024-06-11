@@ -1,4 +1,4 @@
-package withdecorator.decorator;
+package withdecorator.decorators;
 
 import withdecorator.basecomponents.Car;
 
@@ -14,6 +14,6 @@ public class HeatedSeatsDecorator extends CarDecorator {
 
     @Override
     public double getCost() {
-        return decoratedCar.getCost() + 800;
+        return decoratedCar.getCost() + 1200;
     }
 }

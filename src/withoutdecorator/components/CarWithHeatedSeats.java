@@ -8,6 +8,6 @@ public class CarWithHeatedSeats extends BasicCar {
 
     @Override
     public double getCost() {
-        return super.getCost() + 3000;
+        return super.getCost() + 1200;
     }
 }

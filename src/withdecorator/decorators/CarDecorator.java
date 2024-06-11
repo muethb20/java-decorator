@@ -1,4 +1,4 @@
-package withdecorator.decorator;
+package withdecorator.decorators;
 
 import withdecorator.basecomponents.Car;
 
