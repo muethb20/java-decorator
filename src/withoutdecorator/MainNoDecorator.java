@@ -1,5 +1,9 @@
 package withoutdecorator;
 
+import withoutdecorator.components.BasicCar;
+import withoutdecorator.components.CarWithLeatherSeats;
+import withoutdecorator.components.CarWithSunroof;
+
 public class MainNoDecorator {
     public static void main(String[] args) {
         BasicCar car = new BasicCar();

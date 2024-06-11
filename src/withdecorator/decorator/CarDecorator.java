@@ -1,4 +1,6 @@
-package withdecorator;
+package withdecorator.decorator;
+
+import withdecorator.basecomponents.Car;
 
 public abstract class CarDecorator implements Car {
     protected Car decoratedCar;

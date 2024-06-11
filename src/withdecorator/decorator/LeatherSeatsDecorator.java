@@ -1,4 +1,6 @@
-package withdecorator;
+package withdecorator.decorator;
+
+import withdecorator.basecomponents.Car;
 
 public class LeatherSeatsDecorator extends CarDecorator {
     public LeatherSeatsDecorator(Car car) {

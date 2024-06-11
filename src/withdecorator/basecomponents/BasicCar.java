@@ -1,4 +1,4 @@
-package withdecorator;
+package withdecorator.basecomponents;
 
 public class BasicCar implements Car {
     @Override
