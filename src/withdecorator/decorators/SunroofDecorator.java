@@ -1,4 +1,6 @@
-package withdecorator;
+package withdecorator.decorators;
+
+import withdecorator.basecomponents.Car;
 
 public class SunroofDecorator extends CarDecorator {
     public SunroofDecorator(Car car) {

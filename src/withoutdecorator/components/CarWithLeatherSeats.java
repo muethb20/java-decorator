@@ -1,4 +1,4 @@
-package withoutdecorator;
+package withoutdecorator.components;
 
 public class CarWithLeatherSeats extends BasicCar {
     @Override

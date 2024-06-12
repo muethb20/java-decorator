@@ -1,4 +1,4 @@
-package withoutdecorator;
+package withoutdecorator.components;
 
 public class CarWithSunroof extends BasicCar {
     @Override

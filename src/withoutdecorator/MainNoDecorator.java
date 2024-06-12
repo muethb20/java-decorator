@@ -1,5 +1,10 @@
 package withoutdecorator;
 
+import withoutdecorator.components.BasicCar;
+import withoutdecorator.components.CarWithHeatedSeats;
+import withoutdecorator.components.CarWithLeatherSeats;
+import withoutdecorator.components.CarWithSunroof;
+
 public class MainNoDecorator {
     public static void main(String[] args) {
         BasicCar car = new BasicCar();
@@ -11,5 +16,7 @@ public class MainNoDecorator {
         CarWithLeatherSeats carWithLeatherSeats = new CarWithLeatherSeats();
         System.out.println(carWithLeatherSeats.getDescription() + " costs " + carWithLeatherSeats.getCost());
 
+        CarWithHeatedSeats carWithHeatedSeats = new CarWithHeatedSeats();
+        System.out.println(carWithHeatedSeats.getDescription() + " costs " + carWithLeatherSeats.getCost());
     }
 }
